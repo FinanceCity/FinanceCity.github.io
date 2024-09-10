@@ -1,0 +1,173 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    color: #333;
+}
+
+p {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* Header Styles */
+.header {
+    background-color: #14171a;
+    padding: 1rem 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-menu {
+    list-style: none;
+}
+
+.nav-menu li {
+    display: inline-block;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.nav-menu li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.nav-menu li a:hover {
+    color: purple;
+}
+
+.hamburger {
+    display: none;
+}
+
+.logo {
+    color: #61dafb;
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding-left: 2%;
+}
+
+/* Lending Section */
+.lending-section {
+    padding: 50px 0;
+    background:linear-gradient( to right, #61dafb , purple );
+    text-align: center;
+}
+
+.lending-section h2 {
+    font-size: 2.5rem;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.lending-section p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #000000;
+}
+
+.lending-section form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.lending-section label {
+    display: block;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #333;
+}
+
+.lending-section select,
+.lending-section input,
+.lending-section button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.lending-section button {
+    background-color: #61dafb;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.lending-section button:hover {
+    background-color: purple;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .lending-section {
+        padding: 30px 20px;
+    }
+
+    .lending-section h2 {
+        font-size: 2rem;
+    }
+
+    .lending-section p {
+        font-size: 1rem;
+    }
+}
+
+
+/* Footer Section */
+footer {
+    background-color: #14171a;
+    padding: 2rem 0;
+    color: #ffffff;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left {
+    margin-left: 1%;
+}    
+    
+.footer-left h3 {
+    color: #61dafb;
+}
+
+.footer-right {
+    text-align: right;
+}
+
+.socials {
+    list-style: none;
+}
+
+.socials li {
+    display: inline-block;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.socials li a {
+    color: #61dafb;
+    font-size: 1.5rem;
+}

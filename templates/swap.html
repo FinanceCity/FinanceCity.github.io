@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swap</title>
+    <link rel="stylesheet" href="../static/swap.css">
+    <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js" type="application/javascript"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="./index.html" class="logo">Finance City</a>
+                <ul class="nav-menu">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./swap.html">Swap</a></li>
+                    <li><a href="./lend.html">Lend</a></li>
+                    <li><a href="#">Connect Wallet</a></li>
+                </ul>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <h2>Swap Your Crypto Here!</h2>
+
+    <section class="swap-container">
+        <label for="from-token">From:</label>
+        <select id="from-token">
+            <option value="ETH">ETH</option>
+            <option value="USDC">USDC</option>
+            <option value="DAI">DAI</option>
+            <option value="OPTIMISEM">OPTIMISEM</option>
+            <option value="BNB">BNB</option>
+            <option value="SOLANA">SOLANA</option>
+            <option value="WETH">WETH</option>
+            <option value="PRISMA">PRISMA</option>
+            <option value="USDT">USDT</option>
+            <option value="BASE">BASE</option>
+            <option value="TON">TON</option>
+            <option value="AVAX">AVAX</option>
+            <option value="LINK">LINK</option>
+            <option value="ARBITRUM">ARBITRUM</option>
+            <option value="LINEA">LINEA</option>
+            <option value="SEPOLIA">SEPOLIA</option>
+            <option value="MINATO">MINATO</option>
+        </select>
+
+        <input type="number" id="from-amount" placeholder="Amount" />
+
+        <label for="to-token">To:</label>
+        <select id="to-token">
+            <option value="ETH">ETH</option>
+            <option value="USDC">USDC</option>
+            <option value="DAI">DAI</option>
+            <option value="OPTIMISEM">OPTIMISEM</option>
+            <option value="BNB">BNB</option>
+            <option value="SOLANA">SOLANA</option>
+            <option value="WETH">WETH</option>
+            <option value="PRISMA">PRISMA</option>
+            <option value="USDT">USDT</option>
+            <option value="BASE">BASE</option>
+            <option value="TON">TON</option>
+            <option value="AVAX">AVAX</option>
+            <option value="LINK">LINK</option>
+            <option value="ARBITRUM">ARBITRUM</option>
+            <option value="LINEA">LINEA</option>
+            <option value="SEPOLIA">SEPOLIA</option>
+            <option value="MINATO">MINATO</option>
+            
+        </select>
+
+        <button id="swap-button">Swap</button>
+    </section>
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-left">
+                <h3>Finance City</h3>
+                <p>Your trusted decentralized finance lending platform.</p>
+            </div>
+            <div class="footer-right">
+                <ul class="socials">
+                    <li><a href="https://www.linkedin.com/in/finance-city-188936327"><i class="fab fa-linkedin"></i></a></li>
+                    <li><a href="https://www.youtube.com/@FINANCE_CITY_IV"><i class="fab fa-youtube"></i></a></li>
+                    <li><a href="https://x.com/FinanceCityII"><i class="fab fa-x"></i></a></li>
+                    <li><a href="https://t.me/FinanceCityII"><i class="fab fa-telegram"></i></a></li>
+                    <li><a href="https://github.com/mmdrz-n"><i class="fab fa-github"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../scripts/swap.js"></script>
+</body>
+</html>

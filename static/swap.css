@@ -1,0 +1,165 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    color: #333;
+    background:linear-gradient( to right, #61dafb , purple );
+    background-repeat: no-repeat;
+}
+
+/* Header Styles */
+.header {
+    background-color: #14171a;
+    padding: 1rem 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-menu {
+    list-style: none;
+}
+
+.nav-menu li {
+    display: inline-block;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.nav-menu li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.nav-menu li a:hover {
+    color: purple;
+}
+
+.hamburger {
+    display: none;
+}
+
+.logo {
+    color: #61dafb;
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding-left: 2%;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 5%;
+    position: relative;
+    background: url(../hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position: center;
+
+}
+
+/* Swap Crypto Section */
+.swap-container {
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.swap-container label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+.swap-container select,
+.swap-container input,
+.swap-container button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.swap-container button {
+    background-color: #61dafb;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.swap-container button:hover {
+    background-color: purple;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+    }
+    .nav-left, .nav-right {
+        justify-content: center;
+        margin-bottom: 1rem;
+    }
+    .home-logo {
+        margin-bottom: 1rem;
+    }
+}
+
+/* Footer Section */
+footer {
+    background-color: #14171a;
+    padding: 2rem 0;
+    color: #ffffff;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left {
+margin-left: 1%;
+}
+
+.footer-left h3 {
+    color: #61dafb;
+}
+
+.footer-right {
+    text-align: right;
+}
+
+.socials {
+    list-style: none;
+}
+
+.socials li {
+    display: inline-block;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.socials li a {
+    color: #61dafb;
+    font-size: 1.5rem;
+}
